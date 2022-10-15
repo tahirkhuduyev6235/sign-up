@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(book.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 50px;
+    font-size: 30px;
+}
+
+.box img {
+    width: 100%;
+}
+
+#search {
+    margin-top: 50px;
+}
+
+#search input {
+    background-color: blue;
+    height: 30px;
+    color: white;
+}
+
+#inputt input {
+    background-color: blue;
+    height: 30px;
+    color: white;
+}
+
+.dlt {
+    background-color: red;
+    border: none;
+}
